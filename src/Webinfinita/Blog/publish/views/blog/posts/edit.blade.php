@@ -1,11 +1,9 @@
-@extends('layout')
+@extends('webinfinita/blog::layout')
 
 @section('content')
     <div class="container">
         <div class="row">
-            @include('posts.partials.messages')
-
-            @include('posts.partials.errors')
+            @include('webinfinita/blog::posts.partials.errors')
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <h1>Edit {{$post->title}}</h1>
                 {!! Form::model($post, ['route' => ['blog.update', $post->slug], 'method' => 'PUT']) !!}

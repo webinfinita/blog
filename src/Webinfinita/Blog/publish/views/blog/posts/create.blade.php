@@ -3,7 +3,7 @@
 @section('content')
     <div class="container">
         <div class="row">
-            @include('posts.partials.errors')
+            @include('webinfinita/blog::posts.partials.errors')
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <h1>Create a Post</h1>
                 {!! Form::open(['route' => 'blog.store']) !!}

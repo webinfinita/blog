@@ -69,9 +69,7 @@
     <!-- /.container -->
 </nav>
 
-@include('posts.partials.messages')
-
-@include('posts.partials.errors')
+@include('webinfinita/blog::posts.partials.messages')
 
 <!-- Main Content -->
 @yield('content')
