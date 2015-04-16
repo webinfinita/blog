@@ -33,7 +33,14 @@ return [
     ],
 ];
 ```
-Now we need to use a Trait to make a User have many Posts
+Publish the migration and views
+
+```
+php artisan vendor:publish
+```
+
+
+We use a Trait to make a User have many Posts
 
 ```
 // app/User.php
