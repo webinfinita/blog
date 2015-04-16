@@ -1,6 +1,8 @@
 {
   "name": "webinfinita/blog",
-  "description": "",
+  "description": "Simple blog for laravel 5",
+  "keywords": ["laravel", "blog"],
+  "license": "MIT",
   "authors": [
     {
       "name": "Jorge Garcia Coello",
